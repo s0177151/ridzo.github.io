@@ -5,9 +5,17 @@ h4 {
     text-align: center;
   }
 
-.foot{
-    width:200px; 
+@media screen and (min-width: 980px) /* Desktop */ {
+  .foot{
+    width:100%; 
     background-color:#0400fd; 
-    margin:50px; 
-    padding:25px;
+  
+}
+}
+@media screen and (max-width: 500px) /* Mobile */ {
+  .foot{
+    width:100%; 
+    background-color:#0400fd; 
+  
+}
 }
