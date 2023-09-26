@@ -1,0 +1,21 @@
+h4 {
+    color: #00f7ff;
+    font-size: 200%;
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+  }
+
+@media screen and (min-width: 980px) /* Desktop */ {
+  .foot{
+    width:100%; 
+    background-color:#0400fd; 
+  
+}
+}
+@media screen and (max-width: 500px) /* Mobile */ {
+  .foot{
+    width:100%; 
+    background-color:#0400fd; 
+  
+}
+}
